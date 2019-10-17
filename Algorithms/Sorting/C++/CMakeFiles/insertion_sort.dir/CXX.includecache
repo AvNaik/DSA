@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/avanaik/Study/Algorithms/Sorting/C++/src/insertion_sort.cpp
+iostream
+/home/avanaik/Study/Algorithms/Sorting/C++/src/iostream
+

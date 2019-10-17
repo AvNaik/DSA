@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -Werror -std=c++14 -g   CMakeFiles/rotate.dir/src/rotate.cpp.o  -o rotate 

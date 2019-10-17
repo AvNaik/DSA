@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/avanaik/Study/Data_Structures/Strings/C++/includes/inc.h
+
+/home/avanaik/Study/Data_Structures/Strings/C++/src/pangram.cpp
+iostream
+-
+string
+-
+vector
+-
+../includes/inc.h
+/home/avanaik/Study/Data_Structures/Strings/C++/includes/inc.h
+

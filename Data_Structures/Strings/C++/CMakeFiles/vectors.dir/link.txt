@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -Werror -std=c++14 -g   CMakeFiles/vectors.dir/src/vectors.cpp.o  -o vectors 

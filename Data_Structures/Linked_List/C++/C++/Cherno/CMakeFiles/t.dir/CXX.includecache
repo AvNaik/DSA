@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/avanaik92/Study/Data_Structures/Linked_List/C++/C++/Cherno/src/Prog_1/FuncP.cpp
+iostream
+-
+sstream
+-
+string
+-
+include/l.h
+/home/avanaik92/Study/Data_Structures/Linked_List/C++/C++/Cherno/src/Prog_1/include/l.h
+
+/home/avanaik92/Study/Data_Structures/Linked_List/C++/C++/Cherno/src/Prog_1/MainP.cpp
+iostream
+-
+string
+-
+include/l.h
+/home/avanaik92/Study/Data_Structures/Linked_List/C++/C++/Cherno/src/Prog_1/include/l.h
+FuncP.cpp
+/home/avanaik92/Study/Data_Structures/Linked_List/C++/C++/Cherno/src/Prog_1/FuncP.cpp
+
+/home/avanaik92/Study/Data_Structures/Linked_List/C++/C++/Cherno/src/Prog_1/include/l.h
+

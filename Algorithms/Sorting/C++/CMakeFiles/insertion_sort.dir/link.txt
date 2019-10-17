@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -Werror -std=c++17 -g   CMakeFiles/insertion_sort.dir/src/insertion_sort.cpp.o  -o insertion_sort 

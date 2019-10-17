@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -Werror -std=c++14 -g   CMakeFiles/dni.dir/src/insertion.cpp.o  -o dni 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -Werror -std=c++17 -g   CMakeFiles/merge_sort.dir/src/merge_sort.cpp.o  -o merge_sort 

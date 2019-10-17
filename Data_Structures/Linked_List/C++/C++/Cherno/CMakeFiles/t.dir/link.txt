@@ -1,0 +1,1 @@
+/usr/bin/c++     -Wall -Werror -std=c++17 -g   CMakeFiles/t.dir/src/Prog_1/MainP.cpp.o  -o t 
