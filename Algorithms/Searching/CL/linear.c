@@ -14,12 +14,12 @@ int linearSearch_iterative (int arr[], int n, int element)
 
 int linearSearch_recursive (int arr [], int m, int element)
 {
-if (m < 0)
-return -1;
-else if (arr[m] == element)
-return 1;
-else
-return linearSearch_recursive (arr, m-1, element);
+	   if (m < 0)
+			 return -1;
+	   else if (arr[m] == element)
+			 return 1;
+	   else
+			 return linearSearch_recursive (arr, m-1, element);
 }
 int main ()
 {

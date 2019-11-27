@@ -203,7 +203,7 @@ int main ()
 
 	   printList (head);
 
-	   reverse_alternative (&head);
+	   reverse_group_iterative (head, 4);
 	   printList (head);
 
 	   return 0;

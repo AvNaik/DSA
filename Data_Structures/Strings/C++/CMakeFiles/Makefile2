@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/avanaik/Study/Data_Structures/Strings/C++
+CMAKE_SOURCE_DIR = /home/avanaik/Study/DSA/Data_Structures/Strings/C++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/avanaik/Study/Data_Structures/Strings/C++
+CMAKE_BINARY_DIR = /home/avanaik/Study/DSA/Data_Structures/Strings/C++
 
 #=============================================================================
 # Target rules for target CMakeFiles/vectors.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/avanaik/Study/Data_Structures/Strings/C++
 CMakeFiles/vectors.dir/all:
 	$(MAKE) -f CMakeFiles/vectors.dir/build.make CMakeFiles/vectors.dir/depend
 	$(MAKE) -f CMakeFiles/vectors.dir/build.make CMakeFiles/vectors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles --progress-num=11,12 "Built target vectors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles --progress-num=11,12 "Built target vectors"
 .PHONY : CMakeFiles/vectors.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/vectors.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vectors.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vectors.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles 0
 .PHONY : CMakeFiles/vectors.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/vectors.dir/clean
 CMakeFiles/sorted.dir/all:
 	$(MAKE) -f CMakeFiles/sorted.dir/build.make CMakeFiles/sorted.dir/depend
 	$(MAKE) -f CMakeFiles/sorted.dir/build.make CMakeFiles/sorted.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles --progress-num=9,10 "Built target sorted"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles --progress-num=9,10 "Built target sorted"
 .PHONY : CMakeFiles/sorted.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/sorted.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sorted.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sorted.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles 0
 .PHONY : CMakeFiles/sorted.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ clean: CMakeFiles/sorted.dir/clean
 CMakeFiles/reverse.dir/all:
 	$(MAKE) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/depend
 	$(MAKE) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles --progress-num=7,8 "Built target reverse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles --progress-num=7,8 "Built target reverse"
 .PHONY : CMakeFiles/reverse.dir/all
 
 # Include target in all.
@@ -150,9 +150,9 @@ all: CMakeFiles/reverse.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/reverse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/reverse.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles 0
 .PHONY : CMakeFiles/reverse.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ clean: CMakeFiles/reverse.dir/clean
 CMakeFiles/pangram.dir/all:
 	$(MAKE) -f CMakeFiles/pangram.dir/build.make CMakeFiles/pangram.dir/depend
 	$(MAKE) -f CMakeFiles/pangram.dir/build.make CMakeFiles/pangram.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles --progress-num=3,4 "Built target pangram"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles --progress-num=3,4 "Built target pangram"
 .PHONY : CMakeFiles/pangram.dir/all
 
 # Include target in all.
@@ -187,9 +187,9 @@ all: CMakeFiles/pangram.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pangram.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pangram.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles 0
 .PHONY : CMakeFiles/pangram.dir/rule
 
 # Convenience name for target.
@@ -214,7 +214,7 @@ clean: CMakeFiles/pangram.dir/clean
 CMakeFiles/remove_space.dir/all:
 	$(MAKE) -f CMakeFiles/remove_space.dir/build.make CMakeFiles/remove_space.dir/depend
 	$(MAKE) -f CMakeFiles/remove_space.dir/build.make CMakeFiles/remove_space.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles --progress-num=5,6 "Built target remove_space"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles --progress-num=5,6 "Built target remove_space"
 .PHONY : CMakeFiles/remove_space.dir/all
 
 # Include target in all.
@@ -224,9 +224,9 @@ all: CMakeFiles/remove_space.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/remove_space.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/remove_space.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles 0
 .PHONY : CMakeFiles/remove_space.dir/rule
 
 # Convenience name for target.
@@ -251,7 +251,7 @@ clean: CMakeFiles/remove_space.dir/clean
 CMakeFiles/anagram.dir/all:
 	$(MAKE) -f CMakeFiles/anagram.dir/build.make CMakeFiles/anagram.dir/depend
 	$(MAKE) -f CMakeFiles/anagram.dir/build.make CMakeFiles/anagram.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles --progress-num=1,2 "Built target anagram"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles --progress-num=1,2 "Built target anagram"
 .PHONY : CMakeFiles/anagram.dir/all
 
 # Include target in all.
@@ -261,9 +261,9 @@ all: CMakeFiles/anagram.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/anagram.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/anagram.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles 0
 .PHONY : CMakeFiles/anagram.dir/rule
 
 # Convenience name for target.

@@ -4,9 +4,14 @@ int str_length (char []);
 
 void swap (char* s1, char*s2)
 {
+	#if 0
 	   char s = *s1;
 	   *s1 = *s2;
 	   *s2 = s;
+	   #endif 
+	   *s1 = *s1 ^ *s2;
+	   *s2 = *s1 ^ *s2;
+	   *s1 = *s1 ^ *s2;
 }
 
 void reverse (char s[], int length)
@@ -73,9 +78,9 @@ int main ()
 
 //	   reverse_by_k (s1, 2, 0);
 
+	   reverse (s1, len);
 	   printf("The reversed String is: %s \n", s1);
 
-	   reverse_words(s1);
 
 	   return 0;
 }

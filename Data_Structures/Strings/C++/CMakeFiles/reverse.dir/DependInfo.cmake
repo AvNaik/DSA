@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/avanaik/Study/Data_Structures/Strings/C++/src/reverse.cpp" "/home/avanaik/Study/Data_Structures/Strings/C++/CMakeFiles/reverse.dir/src/reverse.cpp.o"
+  "/home/avanaik/Study/DSA/Data_Structures/Strings/C++/src/reverse.cpp" "/home/avanaik/Study/DSA/Data_Structures/Strings/C++/CMakeFiles/reverse.dir/src/reverse.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

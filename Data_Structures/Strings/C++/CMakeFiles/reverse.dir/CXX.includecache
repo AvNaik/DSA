@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/avanaik/Study/Data_Structures/Strings/C++/includes/inc.h
+/home/avanaik/Study/DSA/Data_Structures/Strings/C++/includes/inc.h
 
-/home/avanaik/Study/Data_Structures/Strings/C++/src/reverse.cpp
+/home/avanaik/Study/DSA/Data_Structures/Strings/C++/src/reverse.cpp
 iostream
 -
 string
@@ -16,5 +16,5 @@ string
 algorithm
 -
 ../includes/inc.h
-/home/avanaik/Study/Data_Structures/Strings/C++/includes/inc.h
+/home/avanaik/Study/DSA/Data_Structures/Strings/C++/includes/inc.h
 

@@ -26,7 +26,7 @@ void insert (struct Node* obj, int value)
 	   struct Node* new_element = (struct Node*) malloc (sizeof(struct Node));
 	   if (obj == NULL)
 	   {
-			 printf("INivalid Opeartion \n");
+			 printf("Invalid Opeartion \n");
 			 return;
 	   }
 	   new_element -> data = value;
@@ -103,7 +103,7 @@ void printList (struct Node* head_ref)
 
 int main ()
 {
-	   struct Node* head = (struct Node*) malloc (sizeof (struct Node));
+   struct Node* head = (struct Node*) malloc (sizeof (struct Node));
 	   struct Node* first = (struct Node*) malloc (sizeof (struct Node));
 	   struct Node* second = (struct Node*) malloc (sizeof (struct Node));
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/avanaik/Study/Data_Structures/Strings/C++/src/vectors.cpp
+/home/avanaik/Study/DSA/Data_Structures/Strings/C++/src/vectors.cpp
 iostream
 -
 vector

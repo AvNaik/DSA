@@ -23,8 +23,8 @@ void appendt(struct Node** head_ref, int value)
 	   elements -> tail = new_element;
 }
 /*
-Function to calculate the middle element of a linked list
-*/
+   Function to calculate the middle element of a linked list
+ */
 int printMiddle (struct Node* head_ref)
 {
 
@@ -91,11 +91,12 @@ int main()
 	   appendt (&head, 40);
 	   appendt (&head, 50);
 
+	   appendt(&head , 60);
 
 	   printList (head);
 
 	   printf("The middle of the Linked List is: %d \n", printMiddle (head));
 
-	   printMiddlea(head);
+	   printMiddle(head);
 	   return 0;
 }
