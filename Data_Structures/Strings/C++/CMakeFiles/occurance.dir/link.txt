@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -Werror -std=c++14 -g   CMakeFiles/occurance.dir/src/occurance.cpp.o  -o occurance 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -Werror -std=c++14 -g   CMakeFiles/palindrome.dir/src/palindrome.cpp.o  -o palindrome 

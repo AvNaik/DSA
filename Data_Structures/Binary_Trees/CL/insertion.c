@@ -102,7 +102,7 @@ void create (struct Node** root)
 	   struct Queue* q = NULL;
 	   int x = 0;
 	   int y = 0;
-			 printf("Enter value of root. \n");
+	   printf("Enter value of root. \n");
 	   scanf("%d", &x);
 	   struct Node* new_element = (struct Node*) malloc (sizeof (struct Node));
 	   new_element->data = x;

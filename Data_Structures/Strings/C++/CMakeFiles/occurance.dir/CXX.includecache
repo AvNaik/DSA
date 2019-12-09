@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/avanaik/Study/DSA/Data_Structures/Strings/C++/src/occurance.cpp
+iostream
+-
+string
+-
+algorithm
+-
+utility
+-
+

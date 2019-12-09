@@ -1,13 +1,19 @@
 $(CC) = gcc
 CFLAGS = -I
 
-all: insert
+all: insert delete
 
-insert: insertion.o
-	$(CC) -o insert insertion.o
+delete: delete.o
+	$(CC) -o delete delete.o
 
-insertion.o: insertion.c
-	$(CC) -c insertion.c
+insert: insert.o
+	$(CC) -o insert insert.o
+
+delete.o: delete.c
+	$(CC) -c delete.c
+
+insert.o: insert.c
+	$(CC) -c insert.c
 
 clean:
-	rm -rf *.o $(objects) insert
+	rm -rf *.o $(objects) insert delete

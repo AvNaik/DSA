@@ -13,6 +13,7 @@ void reverse::str_reverse (std::string& s)
 			 s[i] = s[j];
 			 s[j] = temp;
 	   }
+	   std::cout <<s <<std::endl;
 }
 
 void reverse::reverse_by_k (std::string& s, int k)
@@ -81,7 +82,7 @@ int main ()
 
 	   reverse r;
 	   // r.str_reverse(s);
-	   r.reverse_words(s);
+	   r.str_reverse(s);
 
 //	   std::cout << s <<std::endl;
 	   std::cin.get ();

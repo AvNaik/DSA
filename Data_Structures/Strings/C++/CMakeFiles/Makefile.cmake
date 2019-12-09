@@ -41,10 +41,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/vectors.dir/DependInfo.cmake"
-  "CMakeFiles/sorted.dir/DependInfo.cmake"
-  "CMakeFiles/reverse.dir/DependInfo.cmake"
-  "CMakeFiles/pangram.dir/DependInfo.cmake"
-  "CMakeFiles/remove_space.dir/DependInfo.cmake"
   "CMakeFiles/anagram.dir/DependInfo.cmake"
+  "CMakeFiles/remove_space.dir/DependInfo.cmake"
+  "CMakeFiles/reverse.dir/DependInfo.cmake"
+  "CMakeFiles/sorted.dir/DependInfo.cmake"
+  "CMakeFiles/palindrome.dir/DependInfo.cmake"
+  "CMakeFiles/occurance.dir/DependInfo.cmake"
+  "CMakeFiles/vectors.dir/DependInfo.cmake"
+  "CMakeFiles/lexi.dir/DependInfo.cmake"
+  "CMakeFiles/pangram.dir/DependInfo.cmake"
   )

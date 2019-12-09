@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/avanaik/Study/DSA/Data_Structures/Strings/C++
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,56 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named vectors
+# Target rules for targets named anagram
 
 # Build rule for target.
-vectors: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 vectors
-.PHONY : vectors
+anagram: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 anagram
+.PHONY : anagram
 
 # fast build rule for target.
-vectors/fast:
-	$(MAKE) -f CMakeFiles/vectors.dir/build.make CMakeFiles/vectors.dir/build
-.PHONY : vectors/fast
-
-#=============================================================================
-# Target rules for targets named sorted
-
-# Build rule for target.
-sorted: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sorted
-.PHONY : sorted
-
-# fast build rule for target.
-sorted/fast:
-	$(MAKE) -f CMakeFiles/sorted.dir/build.make CMakeFiles/sorted.dir/build
-.PHONY : sorted/fast
-
-#=============================================================================
-# Target rules for targets named reverse
-
-# Build rule for target.
-reverse: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 reverse
-.PHONY : reverse
-
-# fast build rule for target.
-reverse/fast:
-	$(MAKE) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/build
-.PHONY : reverse/fast
-
-#=============================================================================
-# Target rules for targets named pangram
-
-# Build rule for target.
-pangram: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pangram
-.PHONY : pangram
-
-# fast build rule for target.
-pangram/fast:
-	$(MAKE) -f CMakeFiles/pangram.dir/build.make CMakeFiles/pangram.dir/build
-.PHONY : pangram/fast
+anagram/fast:
+	$(MAKE) -f CMakeFiles/anagram.dir/build.make CMakeFiles/anagram.dir/build
+.PHONY : anagram/fast
 
 #=============================================================================
 # Target rules for targets named remove_space
@@ -176,17 +137,95 @@ remove_space/fast:
 .PHONY : remove_space/fast
 
 #=============================================================================
-# Target rules for targets named anagram
+# Target rules for targets named reverse
 
 # Build rule for target.
-anagram: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 anagram
-.PHONY : anagram
+reverse: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reverse
+.PHONY : reverse
 
 # fast build rule for target.
-anagram/fast:
-	$(MAKE) -f CMakeFiles/anagram.dir/build.make CMakeFiles/anagram.dir/build
-.PHONY : anagram/fast
+reverse/fast:
+	$(MAKE) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/build
+.PHONY : reverse/fast
+
+#=============================================================================
+# Target rules for targets named sorted
+
+# Build rule for target.
+sorted: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sorted
+.PHONY : sorted
+
+# fast build rule for target.
+sorted/fast:
+	$(MAKE) -f CMakeFiles/sorted.dir/build.make CMakeFiles/sorted.dir/build
+.PHONY : sorted/fast
+
+#=============================================================================
+# Target rules for targets named palindrome
+
+# Build rule for target.
+palindrome: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 palindrome
+.PHONY : palindrome
+
+# fast build rule for target.
+palindrome/fast:
+	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/build
+.PHONY : palindrome/fast
+
+#=============================================================================
+# Target rules for targets named occurance
+
+# Build rule for target.
+occurance: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 occurance
+.PHONY : occurance
+
+# fast build rule for target.
+occurance/fast:
+	$(MAKE) -f CMakeFiles/occurance.dir/build.make CMakeFiles/occurance.dir/build
+.PHONY : occurance/fast
+
+#=============================================================================
+# Target rules for targets named vectors
+
+# Build rule for target.
+vectors: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 vectors
+.PHONY : vectors
+
+# fast build rule for target.
+vectors/fast:
+	$(MAKE) -f CMakeFiles/vectors.dir/build.make CMakeFiles/vectors.dir/build
+.PHONY : vectors/fast
+
+#=============================================================================
+# Target rules for targets named lexi
+
+# Build rule for target.
+lexi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lexi
+.PHONY : lexi
+
+# fast build rule for target.
+lexi/fast:
+	$(MAKE) -f CMakeFiles/lexi.dir/build.make CMakeFiles/lexi.dir/build
+.PHONY : lexi/fast
+
+#=============================================================================
+# Target rules for targets named pangram
+
+# Build rule for target.
+pangram: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pangram
+.PHONY : pangram
+
+# fast build rule for target.
+pangram/fast:
+	$(MAKE) -f CMakeFiles/pangram.dir/build.make CMakeFiles/pangram.dir/build
+.PHONY : pangram/fast
 
 src/anagram.o: src/anagram.cpp.o
 
@@ -214,6 +253,87 @@ src/anagram.s: src/anagram.cpp.s
 src/anagram.cpp.s:
 	$(MAKE) -f CMakeFiles/anagram.dir/build.make CMakeFiles/anagram.dir/src/anagram.cpp.s
 .PHONY : src/anagram.cpp.s
+
+src/lexi.o: src/lexi.cpp.o
+
+.PHONY : src/lexi.o
+
+# target to build an object file
+src/lexi.cpp.o:
+	$(MAKE) -f CMakeFiles/lexi.dir/build.make CMakeFiles/lexi.dir/src/lexi.cpp.o
+.PHONY : src/lexi.cpp.o
+
+src/lexi.i: src/lexi.cpp.i
+
+.PHONY : src/lexi.i
+
+# target to preprocess a source file
+src/lexi.cpp.i:
+	$(MAKE) -f CMakeFiles/lexi.dir/build.make CMakeFiles/lexi.dir/src/lexi.cpp.i
+.PHONY : src/lexi.cpp.i
+
+src/lexi.s: src/lexi.cpp.s
+
+.PHONY : src/lexi.s
+
+# target to generate assembly for a file
+src/lexi.cpp.s:
+	$(MAKE) -f CMakeFiles/lexi.dir/build.make CMakeFiles/lexi.dir/src/lexi.cpp.s
+.PHONY : src/lexi.cpp.s
+
+src/occurance.o: src/occurance.cpp.o
+
+.PHONY : src/occurance.o
+
+# target to build an object file
+src/occurance.cpp.o:
+	$(MAKE) -f CMakeFiles/occurance.dir/build.make CMakeFiles/occurance.dir/src/occurance.cpp.o
+.PHONY : src/occurance.cpp.o
+
+src/occurance.i: src/occurance.cpp.i
+
+.PHONY : src/occurance.i
+
+# target to preprocess a source file
+src/occurance.cpp.i:
+	$(MAKE) -f CMakeFiles/occurance.dir/build.make CMakeFiles/occurance.dir/src/occurance.cpp.i
+.PHONY : src/occurance.cpp.i
+
+src/occurance.s: src/occurance.cpp.s
+
+.PHONY : src/occurance.s
+
+# target to generate assembly for a file
+src/occurance.cpp.s:
+	$(MAKE) -f CMakeFiles/occurance.dir/build.make CMakeFiles/occurance.dir/src/occurance.cpp.s
+.PHONY : src/occurance.cpp.s
+
+src/palindrome.o: src/palindrome.cpp.o
+
+.PHONY : src/palindrome.o
+
+# target to build an object file
+src/palindrome.cpp.o:
+	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/src/palindrome.cpp.o
+.PHONY : src/palindrome.cpp.o
+
+src/palindrome.i: src/palindrome.cpp.i
+
+.PHONY : src/palindrome.i
+
+# target to preprocess a source file
+src/palindrome.cpp.i:
+	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/src/palindrome.cpp.i
+.PHONY : src/palindrome.cpp.i
+
+src/palindrome.s: src/palindrome.cpp.s
+
+.PHONY : src/palindrome.s
+
+# target to generate assembly for a file
+src/palindrome.cpp.s:
+	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/src/palindrome.cpp.s
+.PHONY : src/palindrome.cpp.s
 
 src/pangram.o: src/pangram.cpp.o
 
@@ -356,17 +476,29 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... vectors"
 	@echo "... edit_cache"
-	@echo "... sorted"
-	@echo "... reverse"
-	@echo "... pangram"
-	@echo "... remove_space"
 	@echo "... anagram"
+	@echo "... remove_space"
+	@echo "... reverse"
+	@echo "... sorted"
+	@echo "... palindrome"
+	@echo "... occurance"
+	@echo "... vectors"
+	@echo "... lexi"
+	@echo "... pangram"
+	@echo "... rebuild_cache"
 	@echo "... src/anagram.o"
 	@echo "... src/anagram.i"
 	@echo "... src/anagram.s"
+	@echo "... src/lexi.o"
+	@echo "... src/lexi.i"
+	@echo "... src/lexi.s"
+	@echo "... src/occurance.o"
+	@echo "... src/occurance.i"
+	@echo "... src/occurance.s"
+	@echo "... src/palindrome.o"
+	@echo "... src/palindrome.i"
+	@echo "... src/palindrome.s"
 	@echo "... src/pangram.o"
 	@echo "... src/pangram.i"
 	@echo "... src/pangram.s"
