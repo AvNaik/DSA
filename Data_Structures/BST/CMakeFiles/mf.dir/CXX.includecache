@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/avanaik/Study/DSA/Data_Structures/BST/inc/inc.h
+
+/home/avanaik/Study/DSA/Data_Structures/BST/src/create.cpp
+iostream
+-
+../inc/inc.h
+/home/avanaik/Study/DSA/Data_Structures/BST/inc/inc.h
+
+/home/avanaik/Study/DSA/Data_Structures/BST/src/del.cpp
+iostream
+-
+../inc/inc.h
+/home/avanaik/Study/DSA/Data_Structures/BST/inc/inc.h
+
+/home/avanaik/Study/DSA/Data_Structures/BST/src/inorder.cpp
+iostream
+-
+../inc/inc.h
+/home/avanaik/Study/DSA/Data_Structures/BST/inc/inc.h
+
+/home/avanaik/Study/DSA/Data_Structures/BST/src/mainfile.cpp
+iostream
+-
+../inc/inc.h
+/home/avanaik/Study/DSA/Data_Structures/BST/inc/inc.h
+
+/home/avanaik/Study/DSA/Data_Structures/BST/src/search.cpp
+iostream
+-
+../inc/inc.h
+/home/avanaik/Study/DSA/Data_Structures/BST/inc/inc.h
+
