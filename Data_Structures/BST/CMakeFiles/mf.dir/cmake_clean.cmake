@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mf.dir/src/mainfile.cpp.o"
   "CMakeFiles/mf.dir/src/inorder.cpp.o"
   "CMakeFiles/mf.dir/src/del.cpp.o"
+  "CMakeFiles/mf.dir/src/construct.cpp.o"
+  "CMakeFiles/mf.dir/src/helpers.cpp.o"
   "mf.pdb"
   "mf"
 )

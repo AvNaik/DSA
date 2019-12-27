@@ -123,6 +123,33 @@ mf/fast:
 	$(MAKE) -f CMakeFiles/mf.dir/build.make CMakeFiles/mf.dir/build
 .PHONY : mf/fast
 
+src/construct.o: src/construct.cpp.o
+
+.PHONY : src/construct.o
+
+# target to build an object file
+src/construct.cpp.o:
+	$(MAKE) -f CMakeFiles/mf.dir/build.make CMakeFiles/mf.dir/src/construct.cpp.o
+.PHONY : src/construct.cpp.o
+
+src/construct.i: src/construct.cpp.i
+
+.PHONY : src/construct.i
+
+# target to preprocess a source file
+src/construct.cpp.i:
+	$(MAKE) -f CMakeFiles/mf.dir/build.make CMakeFiles/mf.dir/src/construct.cpp.i
+.PHONY : src/construct.cpp.i
+
+src/construct.s: src/construct.cpp.s
+
+.PHONY : src/construct.s
+
+# target to generate assembly for a file
+src/construct.cpp.s:
+	$(MAKE) -f CMakeFiles/mf.dir/build.make CMakeFiles/mf.dir/src/construct.cpp.s
+.PHONY : src/construct.cpp.s
+
 src/create.o: src/create.cpp.o
 
 .PHONY : src/create.o
@@ -176,6 +203,33 @@ src/del.s: src/del.cpp.s
 src/del.cpp.s:
 	$(MAKE) -f CMakeFiles/mf.dir/build.make CMakeFiles/mf.dir/src/del.cpp.s
 .PHONY : src/del.cpp.s
+
+src/helpers.o: src/helpers.cpp.o
+
+.PHONY : src/helpers.o
+
+# target to build an object file
+src/helpers.cpp.o:
+	$(MAKE) -f CMakeFiles/mf.dir/build.make CMakeFiles/mf.dir/src/helpers.cpp.o
+.PHONY : src/helpers.cpp.o
+
+src/helpers.i: src/helpers.cpp.i
+
+.PHONY : src/helpers.i
+
+# target to preprocess a source file
+src/helpers.cpp.i:
+	$(MAKE) -f CMakeFiles/mf.dir/build.make CMakeFiles/mf.dir/src/helpers.cpp.i
+.PHONY : src/helpers.cpp.i
+
+src/helpers.s: src/helpers.cpp.s
+
+.PHONY : src/helpers.s
+
+# target to generate assembly for a file
+src/helpers.cpp.s:
+	$(MAKE) -f CMakeFiles/mf.dir/build.make CMakeFiles/mf.dir/src/helpers.cpp.s
+.PHONY : src/helpers.cpp.s
 
 src/inorder.o: src/inorder.cpp.o
 
@@ -267,12 +321,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mf"
+	@echo "... src/construct.o"
+	@echo "... src/construct.i"
+	@echo "... src/construct.s"
 	@echo "... src/create.o"
 	@echo "... src/create.i"
 	@echo "... src/create.s"
 	@echo "... src/del.o"
 	@echo "... src/del.i"
 	@echo "... src/del.s"
+	@echo "... src/helpers.o"
+	@echo "... src/helpers.i"
+	@echo "... src/helpers.s"
 	@echo "... src/inorder.o"
 	@echo "... src/inorder.i"
 	@echo "... src/inorder.s"

@@ -8,6 +8,12 @@
 
 /home/avanaik/Study/DSA/Data_Structures/BST/inc/inc.h
 
+/home/avanaik/Study/DSA/Data_Structures/BST/src/construct.cpp
+iostream
+-
+../inc/inc.h
+/home/avanaik/Study/DSA/Data_Structures/BST/inc/inc.h
+
 /home/avanaik/Study/DSA/Data_Structures/BST/src/create.cpp
 iostream
 -
@@ -15,6 +21,12 @@ iostream
 /home/avanaik/Study/DSA/Data_Structures/BST/inc/inc.h
 
 /home/avanaik/Study/DSA/Data_Structures/BST/src/del.cpp
+iostream
+-
+../inc/inc.h
+/home/avanaik/Study/DSA/Data_Structures/BST/inc/inc.h
+
+/home/avanaik/Study/DSA/Data_Structures/BST/src/helpers.cpp
 iostream
 -
 ../inc/inc.h
